@@ -1,0 +1,1565 @@
+INFO:root:
+Selector: High Level Ordering of Strategies
+| Sequence: Finisher Strategy
+| | Check: is_final_enemy_base
+| | Action: finish_off
+| Sequence: Offensive Strategy
+| | Check: have_largest_fleet
+| | Action: attack_weakest_enemy_planet
+| Selector: Colonizaition Strategy
+| | Action: capture_neighbors
+| | Action: consolidate_ships
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:1 18 11.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:1 17 21.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:1 12 23.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:1 11 79.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:1 5 45.5
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:18 12 12.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:12 0 17.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:18 12 14.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:12 2 94.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:1 6 23.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:11 16 66.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:1 15 72.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:18 12 12.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:12 17 54.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:11 19 68.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:18 12 14.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:2 9 23.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:1 21 45.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:17 12 11.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:12 22 66.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:2 14 74.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:18 12 18.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:0 12 19.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:17 12 12.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:1 20 79.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:12 3 89.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:11 13 28.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:11 5 23.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:0 6 30.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:16 19 27.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:17 12 16.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:18 12 24.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:15 12 19.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:9 12 6.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Result: Action: consolidate_ships -> Failure
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:16 12 16.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:17 12 12.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:12 4 87.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:2 7 105.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:11 8 93.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Result: Action: capture_neighbors -> Failure
+DEBUG:root:Executing:Action: consolidate_ships
+DEBUG:root:Order:9 12 7.0
+DEBUG:root:Result: Action: consolidate_ships -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Finisher Strategy
+DEBUG:root:Executing:Check: is_final_enemy_base
+DEBUG:root:Result: Check: is_final_enemy_base -> Failure
+DEBUG:root:Result: Sequence: Finisher Strategy -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Selector: Colonizaition Strategy
+DEBUG:root:Executing:Action: capture_neighbors
+DEBUG:root:Order:1 10 90.0
+DEBUG:root:Result: Action: capture_neighbors -> Success
+DEBUG:root:Result: Selector: Colonizaition Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
